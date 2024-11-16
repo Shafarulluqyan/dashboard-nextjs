@@ -4,12 +4,11 @@ import Sidebar from "@/components/sidebar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full">
-      <Navbar />
-      <div className="flex">
-        <Sidebar />
-        <Content />
-      </div>
+    <main className="min-h-screen w-full flex">
+      {/* <Navbar /> */}
+
+      <Sidebar />
+      <Content />
     </main>
   );
 }
